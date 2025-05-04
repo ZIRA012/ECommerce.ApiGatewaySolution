@@ -129,13 +129,13 @@
         },
 
         {
-            //POST,PUT,DELET para el product ->
-            "DownstreamPathTemplate": "/api/Ordesr/{everything}",
+            //POST,PUT,DELETE para el product ->
+            "DownstreamPathTemplate": "/api/Orders/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
                     "Host": "localhost",
-                    "Port": 5001
+                    "Port": 5002
                 }
             ],
 
